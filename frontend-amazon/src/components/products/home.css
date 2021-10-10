@@ -1,0 +1,33 @@
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 30rem;
+    margin: 5px;
+    border: 1px solid brown;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.product-name {
+    font-size: 1.8rem;
+}
+
+.price-and-brand {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price, .brand-name {
+    font-size: 1.7rem;
+}

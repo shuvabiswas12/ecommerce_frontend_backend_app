@@ -1,0 +1,18 @@
+.filter {
+    padding: 10px;
+}
+
+.filter-options {
+    font-size: 2.0rem;
+    outline: none;
+    border: 1px solid brown;
+}
+.filter > .form-group {
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+}
+
+.space {
+    margin: 0 10px;
+}

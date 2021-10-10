@@ -1,0 +1,34 @@
+.product-info {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.product-info .img-responsive {
+    width: 40rem;
+}
+
+.product-info .product-name {
+    font-size: 2.8rem;
+}
+
+.product-data {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+.product-data .product-price, .product-data .product-seller, .product-data .product-description {
+    font-size: 2.0rem;
+    border-bottom: 1px solid brown;
+}
+
+.button-center {
+    margin: 0 auto;
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+}

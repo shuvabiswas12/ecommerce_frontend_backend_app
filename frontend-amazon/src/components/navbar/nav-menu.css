@@ -1,0 +1,41 @@
+.settings-menu {
+    position: absolute;
+    width: 90%;
+    max-width: 20rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    overflow: hidden;
+    top: 108%;
+    right: 2%;
+    max-height: 0;
+    box-shadow: 0 5px 10px gray;
+    transition: max-height 0.3s;
+    z-index: 100;
+}
+
+.settings-menu-height {
+    max-height: 450px;
+}
+
+.user-profile {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.user-profile:hover {
+    background-color: aliceblue;
+}
+
+.user-profile > img {
+    width: 15%;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.user-profile div {
+    font-size: 1.5rem;
+    align-self: center;
+    cursor: pointer;
+}

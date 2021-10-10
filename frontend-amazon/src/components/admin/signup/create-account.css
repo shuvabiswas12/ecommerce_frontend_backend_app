@@ -1,0 +1,8 @@
+
+.create-account-label::before {
+    content: "Signup";
+    font-size: 2.0rem;
+    position: absolute;
+    margin-top: -5rem;
+    border-bottom: 2px solid brown;
+}
